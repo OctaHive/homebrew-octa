@@ -3,6 +3,6 @@ This is a [Homebrew](https://brew.sh) [tap](https://docs.brew.sh/Taps) for [octa
 
 ## Installation
 ```bash
-brew tap adrianmrit/mom
+brew tap OctaHive/octa
 brew install octa
 ```

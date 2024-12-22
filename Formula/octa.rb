@@ -34,17 +34,6 @@ class Octa < Formula
     end
   end
 
-  on_windows do
-    if Hardware::CPU.intel?
-      url "https://github.com/OctaHive/octa/releases/download/v0.1.0/octa-Windows-amd64.zip"
-      sha256 "4eaae41cd172b1d80fbffbbaf4e359c1473e60c8497209b1a2d977c784e22628"
-
-      def install
-        bin.install "octa"
-      end
-    end
-  end
-
   test do
     assert_match "octa 0.1.0", shell_output("#{bin}/octa --version")
   end
