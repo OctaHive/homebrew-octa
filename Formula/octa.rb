@@ -7,7 +7,7 @@ class Octa < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/OctaHive/octa/releases/download/v0.1.0/octa-Darwin-aarch64.tar.gz"
-      sha256 "3e2274a1e11661634fe13fee6c99b59be908944e594375b7e0e4691001b33b42"
+      sha256 "2cf71ee1cfe8c189fd5b6d68b6f46bf5890c9d8e502cfd4f085bbe2b0ce92743"
 
       def install
         bin.install "octa"
@@ -15,7 +15,7 @@ class Octa < Formula
     end
     if Hardware::CPU.intel?
       url "https://github.com/OctaHive/octa/releases/download/v0.1.0/octa-Darwin-x86_64.tar.gz"
-      sha256 "430268defa7b156618ed7f82538ff2c671ded5dff3f72fd6fd2e80c5e5392dff"
+      sha256 "78f683d700dbd75086973ac9a69a8a821c06c1a27ba8cc6d6ecaf40102226199"
 
       def install
         bin.install "octa"
@@ -26,7 +26,7 @@ class Octa < Formula
   on_linux do
     if Hardware::CPU.intel?
       url "https://github.com/OctaHive/octa/releases/download/v0.1.0/octa-Linux-amd64.tar.gz"
-      sha256 "4f7b4825c0f372feeeafb00af99ef57da70ad4f4aea954208626ce692c5b523a"
+      sha256 "fe097d7092afb84b319e7608ceb8d7280e1315837f38777ad763c8f234e61741"
 
       def install
         bin.install "octa"
